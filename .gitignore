@@ -1,0 +1,56 @@
+# Python bytecode and interpreter caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Test, lint, type-check, and coverage caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Local datasets and generated experiment artifacts, anchored to the repository
+# root so they cannot match package directories such as src/grit/data/.
+/data/
+/outputs/
+/checkpoints/
+/wandb/
+/scratch/
+
+# Local logs and scheduler output
+nohup.out
+*.log
+slurm-*.out
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+*~
+*.swp
+*.swo

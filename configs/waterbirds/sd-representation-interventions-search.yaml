@@ -1,0 +1,38 @@
+# Spectral Decoupling crossed with vanilla, GRIT and prediction consistency.
+# Paper subset of the recorded search: the recorded run also crossed
+# representation consistency, which the paper does not report, so those methods
+# and their settings are omitted here. Names match the recorded plan in results/.
+schema_version: grit.production-search/v1
+dataset: waterbirds_cf
+protocol_id: waterbirds_cf/v1
+experiment_name: waterbirds-sd-interventions-representation-v1
+experiment_variant: primary_unnormalized
+normalization: none
+artifacts:
+  dataset_manifest: ${PROJECT_SCRATCH}/artifacts/waterbirds-none/construction/dataset-manifest.json
+  feature_cache_manifest: ${PROJECT_SCRATCH}/artifacts/waterbirds-none/feature-cache/manifest.json
+  oracle_pair_manifest: ${PROJECT_SCRATCH}/artifacts/waterbirds-none/pair-manifest.json
+seeds:
+  construction: 1729
+  pairs: 2718
+  stages:
+    tuning: [1101, 1102, 1103]
+    confirmation: [2101, 2102]
+    final: [3101, 3102, 3103, 3104, 3105, 3106, 3107, 3108, 3109, 3110]
+search_space:
+  methods: [sd, sd_grit, sd_consistency]
+  learning_rates: [1e-4, 3e-4, 1e-3, 3e-3]
+  weight_decays: [0.0, 1e-5, 1e-4, 1e-3]
+  projection_ranks: [2, 8, 16, 24]
+  consistency_weights: [0.01, 0.1, 1.0, 10.0]
+  sd_penalty_weights: [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
+selectors: [waterbirds_validation_worst_group]
+pair_count: 240
+batch_size: 256
+max_epochs: 100
+output_root: ${PROJECT_SCRATCH}/outputs/waterbirds-sd-interventions-representation-v1
+runtime:
+  device: cpu
+  deterministic_algorithms: true
+  workers: 1
+relative_singular_value_tolerance: 1e-12

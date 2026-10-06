@@ -1,0 +1,30 @@
+{
+  "status": "compared",
+  "train": {
+    "upstream_root": "/anonymous/scratch/data/urbancars/urbancars/bg-0.95_co_occur_obj-0.95",
+    "compared": 200,
+    "missing_upstream": 0,
+    "identical": 200,
+    "max_abs_difference": 0,
+    "mean_abs_difference": 0.0,
+    "worst_image_mean": 0.0
+  },
+  "val": {
+    "upstream_root": "/anonymous/scratch/data/urbancars/urbancars/bg-0.5_co_occur_obj-0.5",
+    "compared": 200,
+    "missing_upstream": 0,
+    "identical": 199,
+    "max_abs_difference": 3,
+    "mean_abs_difference": 4.6539306640625e-06,
+    "worst_image_mean": 0.0009307861328125
+  },
+  "test": {
+    "upstream_root": "/anonymous/scratch/data/urbancars/urbancars/bg-0.5_co_occur_obj-0.5",
+    "compared": 200,
+    "missing_upstream": 0,
+    "identical": 198,
+    "max_abs_difference": 1,
+    "mean_abs_difference": 8.6212158203125e-06,
+    "worst_image_mean": 0.0009765625
+  }
+}

@@ -1,0 +1,20 @@
+# UrbanCars generation environment (isolated from the GRIT environment).
+# torch/torchvision come from the CUDA index first; detectron2 is built after them,
+# without build isolation, so setuptools and wheel must be in the environment.
+setuptools==69.5.1  # torch cpp_extension imports pkg_resources
+wheel
+numpy==1.22.4
+scipy==1.7.3
+scikit-image==0.19.3
+opencv-python-headless==4.6.0.66
+pycocotools==2.0.7
+lvis==0.5.3
+timm==0.6.13
+shapely
+h5py
+cython
+tqdm
+fvcore
+iopath
+omegaconf
+hydra-core

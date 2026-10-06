@@ -1,0 +1,18 @@
+# Shared optimizer choice, validation only: bank 0, k = 256, the four v1
+# collections, primary selector. Writes optimizer.json (choice plus the full-grid
+# optimizer check); copy the choice into v1.yaml.
+dataset: urbancars
+experiment_name: urbancars-v1-standard-optimizer
+cache_root: ${PROJECT_SCRATCH}/artifacts/urbancars-v1-standard
+output_root: ${PROJECT_SCRATCH}/outputs/urbancars-v1-standard-optimizer
+kind: optimizer
+seeds:
+  tuning: [1101, 1102, 1103]
+  confirmation: [2101, 2102]
+  final: [3101, 3102, 3103, 3104, 3105, 3106, 3107, 3108, 3109, 3110]
+banks: [0]
+collections:
+  - {name: b_only, share: 0.0}
+  - {name: uneven, share: 0.25}
+  - {name: balanced, share: 0.5}
+  - {name: o_only, share: 1.0}

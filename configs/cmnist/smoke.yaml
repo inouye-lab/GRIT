@@ -1,0 +1,25 @@
+schema_version: grit.cmnist-smoke/v1
+non_reportable: true
+output_root: artifacts/cmnist-smoke
+construction_seed: 17
+pair_seed: 23
+fake_encoder_seed: 31
+image_size: 8
+source_counts:
+  train_e01: 128
+  train_e02: 128
+  validation: 64
+  test: 64
+label_flip_prob: 0.25
+normalization: none
+pair_count: 256
+projection_rank: 1
+relative_singular_value_tolerance: 1.0e-12
+learning_rates: [0.001, 0.003, 0.01]
+weight_decay: 0.0
+batch_size: 64
+max_epochs: 2
+seed_sets:
+  tuning: [101, 102, 103]
+  confirmation: [201, 202]
+  final: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310]

@@ -1,0 +1,18 @@
+# Setup checks, validation only: C4 energy calibration, C2 geometry, C1 ERM shortcut
+# reliance (go/no-go), C3 reference projection, and the bank-0 one-seed pilot.
+# Writes check-report.json. Standard construction.
+dataset: urbancars
+experiment_name: urbancars-v1-standard-check
+cache_root: ${PROJECT_SCRATCH}/artifacts/urbancars-v1-standard
+output_root: ${PROJECT_SCRATCH}/outputs/urbancars-v1-standard-check
+kind: check
+seeds:
+  tuning: [1101, 1102, 1103]
+  confirmation: [2101, 2102]
+  final: [3101, 3102, 3103, 3104, 3105, 3106, 3107, 3108, 3109, 3110]
+collections:
+  - {name: b_only, share: 0.0}
+  - {name: uneven, share: 0.25}
+  - {name: balanced, share: 0.5}
+  - {name: o_only, share: 1.0}
+  - {name: count_50, count_fraction: 0.5}

@@ -1,0 +1,117 @@
+{
+  "binding": {
+    "config": {
+      "banks": [
+        0,
+        1,
+        2
+      ],
+      "batch_size": 256,
+      "budget": 256,
+      "collections": [
+        {
+          "count_fraction": null,
+          "name": "b_only",
+          "share": 0.0
+        },
+        {
+          "count_fraction": null,
+          "name": "uneven",
+          "share": 0.25
+        },
+        {
+          "count_fraction": null,
+          "name": "balanced",
+          "share": 0.5
+        },
+        {
+          "count_fraction": null,
+          "name": "o_only",
+          "share": 1.0
+        },
+        {
+          "count_fraction": 0.5,
+          "name": "count_50",
+          "share": null
+        }
+      ],
+      "consistency_strengths": [
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0,
+        1000.0,
+        10000.0
+      ],
+      "dataset": "urbancars",
+      "experiment_name": "urbancars-v1-standard-check",
+      "include_count_50": null,
+      "kind": "check",
+      "learning_rates": [
+        0.0001,
+        0.0003,
+        0.001,
+        0.003
+      ],
+      "matched_ranks": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "max_epochs": 100,
+      "methods": [
+        "erm",
+        "grit",
+        "consistency",
+        "reference"
+      ],
+      "optimizers": {},
+      "ranks": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "seeds": {
+        "confirmation": [
+          2101,
+          2102
+        ],
+        "final": [
+          3101,
+          3102,
+          3103,
+          3104,
+          3105,
+          3106,
+          3107,
+          3108,
+          3109,
+          3110
+        ],
+        "tuning": [
+          1101,
+          1102,
+          1103
+        ]
+      },
+      "weight_decays": [
+        0.0,
+        0.0001
+      ]
+    },
+    "dataset_digest": "sha256:aa005e8caae2665472a644570d0d750de9eb01694a9e997a3945725e127aa9db"
+  },
+  "code": {
+    "git_dirty": false,
+    "git_revision": "anonymous-rev-4"
+  }
+}

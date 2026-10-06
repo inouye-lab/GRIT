@@ -1,0 +1,26 @@
+{
+  "commit": "anonymous-source",
+  "device": "cpu-float64",
+  "elapsed_seconds": 41.1040099170059,
+  "mps_available": false,
+  "numpy": "2.5.2",
+  "platform": "macOS-14.6.1-arm64-i386-64bit",
+  "python": "3.12.14",
+  "results_sha256": "c54bbf725aae633393415b9b7211e76a373fe0979d2f25dbe35552b76f6fa37d",
+  "source_hashes": {
+    "experimental/collection_geometry/SWEEP-PROTOCOL.md": "eb37fb397720d54bd207dfb71e1bae973054d004050e98640cee8377e734121b",
+    "experimental/collection_geometry/core.py": "1368966eddd9d4af5c350cd5022293f0028ff7ff9ad688accdab7010327c5ee4",
+    "experimental/collection_geometry/digits.py": "0950c8f925eb4d3aeed79d61ecb9318fafec6b213c89b64ecb4c05f7a6292c35",
+    "experimental/collection_geometry/report.py": "f4e17e5cdf1b8292e9866b7fcf064e3ed0e07b3d9e27b4f3ca1b1e0135ef1512",
+    "experimental/collection_geometry/run.py": "b4e1fa65acf15c453700b0e25c2e292b12dacb9993828882bfca4e1a20037920",
+    "experimental/collection_geometry/run_sweeps.sh": "f6e2bd2f0e0fbd56cad8c5e95cabd1c80d2c0ad5c9207bcb09150c8399e45ffb",
+    "experimental/collection_geometry/sweep_report.py": "d268a4b4dd4cd0c29dca74e4449910a092579de37893e0abdbe8dc67b62a4200",
+    "experimental/collection_geometry/sweeps.py": "05a87e589222c0564df91b0241bd4971cc9d9906d6751d3585f8bbeb94791daa",
+    "src/grit/data/collection_geometry.py": "b799d9eec08ee80a14c23a8164952bfb14d4ae86d613c1b2ced77503b80c9248",
+    "src/grit/geometry.py": "9c9f29fd7e5506cf471bf1b51edd2657adf5d6ccb63998c57202f7b35fc4c61a",
+    "src/grit/methods/projection.py": "deecd035c76f0b8d224a10b78f33816a5dc46b0556ef531949eec97746ec5e83",
+    "uv.lock": "e1c37e3653b1c7e64f1130a58e49bfbc494446baec6d9f8a685fb111ec629bd2"
+  },
+  "status": "complete",
+  "torch": "2.11.0"
+}

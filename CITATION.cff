@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "GRIT: Out-of-Distribution Robustness from Finite and Noisy Invariant Pairs"
+type: software
+license: MIT
+repository-code: "https://github.com/inouye-lab/GRIT"
+authors:
+  - family-names: "Bai"
+    given-names: "Ruqi"
+    affiliation: "Apple"
+  - family-names: "Currie"
+    given-names: "Easton"
+    affiliation: "Purdue University"
+  - family-names: "Ji"
+    given-names: "Yao"
+    affiliation: "Georgia Institute of Technology"
+  - family-names: "Kim"
+    given-names: "Mingyu"
+    affiliation: "Purdue University"
+  - family-names: "Zhou"
+    given-names: "Zeyu"
+    affiliation: "Purdue University"
+  - family-names: "Inouye"
+    given-names: "David I."
+    affiliation: "Purdue University"
+preferred-citation:
+  type: article
+  title: "GRIT: Out-of-Distribution Robustness from Finite and Noisy Invariant Pairs"
+  year: 2026
+  authors:
+    - family-names: "Bai"
+      given-names: "Ruqi"
+      affiliation: "Apple"
+    - family-names: "Currie"
+      given-names: "Easton"
+      affiliation: "Purdue University"
+    - family-names: "Ji"
+      given-names: "Yao"
+      affiliation: "Georgia Institute of Technology"
+    - family-names: "Kim"
+      given-names: "Mingyu"
+      affiliation: "Purdue University"
+    - family-names: "Zhou"
+      given-names: "Zeyu"
+      affiliation: "Purdue University"
+    - family-names: "Inouye"
+      given-names: "David I."
+      affiliation: "Purdue University"

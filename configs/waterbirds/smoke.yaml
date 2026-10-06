@@ -1,0 +1,16 @@
+schema_version: grit.waterbirds-smoke/v1
+non_reportable: true
+output_root: artifacts/waterbirds-smoke
+construction_seed: 17
+fake_encoder_seed: 31
+normalization: none
+projection_rank: 1
+relative_singular_value_tolerance: 1.0e-12
+learning_rates: [0.001, 0.003, 0.01]
+weight_decay: 0.0
+batch_size: 8
+max_epochs: 2
+seed_sets:
+  tuning: [101, 102, 103]
+  confirmation: [201, 202]
+  final: [301, 302, 303, 304, 305, 306, 307, 308, 309, 310]

@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "grit-research"
+version = "0.1.0"
+description = "GRIT: Out-of-Distribution Robustness from Finite and Noisy Invariant Pairs"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Ruqi Bai" },
+    { name = "Easton Currie" },
+    { name = "Yao Ji" },
+    { name = "Mingyu Kim" },
+    { name = "Zeyu Zhou" },
+    { name = "David I. Inouye" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "clip @ git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "matplotlib>=3.9,<4",
+    "numpy>=1.26,<3",
+    "opencv-python-headless>=4.10,<5",
+    "pillow>=10,<13",
+    "pydantic>=2.11,<3",
+    "pyyaml>=6,<7",
+    "torch==2.11.0",
+    "torchvision==0.26.0",
+    "wandb>=0.19,<1",
+]
+
+[project.urls]
+Repository = "https://github.com/inouye-lab/GRIT"
+
+[dependency-groups]
+dev = [
+  "basedpyright>=1.31,<2",
+  "pytest>=8.3,<9",
+  "ruff>=0.12,<1",
+  "types-pyyaml>=6,<7",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/grit"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+include = ["src/**/*.py", "tests/**/*.py", "scripts/*.py"]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "UP"]
+
+[tool.basedpyright]
+include = ["src/grit", "tests", "scripts/*.py"]
+pythonVersion = "3.10"
+typeCheckingMode = "strict"
+venvPath = "."
+venv = ".venv"

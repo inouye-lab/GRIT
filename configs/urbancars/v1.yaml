@@ -1,0 +1,30 @@
+# v1 search at k = 256 on three banks, with the frozen shared optimizer and C4's
+# Count-50 decision. Fitting stops at frozen winners; --unseal-test <hash> runs test.
+dataset: urbancars
+experiment_name: urbancars-v1-standard
+cache_root: ${PROJECT_SCRATCH}/artifacts/urbancars-v1-standard
+output_root: ${PROJECT_SCRATCH}/outputs/urbancars-v1-standard
+kind: main
+seeds:
+  tuning: [1101, 1102, 1103]
+  confirmation: [2101, 2102]
+  final: [3101, 3102, 3103, 3104, 3105, 3106, 3107, 3108, 3109, 3110]
+collections:
+  - {name: b_only, share: 0.0}
+  - {name: uneven, share: 0.25}
+  - {name: balanced, share: 0.5}
+  - {name: o_only, share: 1.0}
+  - {name: count_50, count_fraction: 0.5}
+# C4: E_B / E_O = 3.76, outside [0.67, 1.5], so Count-50 runs as a control.
+include_count_50: true
+methods: [erm, erm_matched, grit, consistency, reference]
+consistency_strengths: [1.0e-3, 1.0e-2, 1.0e-1, 1.0, 10.0, 100.0, 1000.0, 1.0e4, 1.0e5, 1.0e6]
+# Frozen from outputs/urbancars-v1-standard-optimizer-v2/optimizer.json (2026-09-25).
+# ERM: the planned rule, confirmed on five seeds (worst-group-selected, early-stopped).
+# erm_matched: GRIT's optimizer, a labelled matched-optimizer control.
+optimizers:
+  erm: {learning_rate: 1.0e-5, weight_decay: 0.0}
+  erm_matched: {learning_rate: 1.0e-3, weight_decay: 1.0e-4}
+  grit: {learning_rate: 1.0e-3, weight_decay: 1.0e-4}
+  consistency: {learning_rate: 1.0e-2, weight_decay: 1.0e-4}
+  reference: {learning_rate: 3.0e-4, weight_decay: 0.0}

@@ -1,0 +1,389 @@
+{
+  "stanford_train": {
+    "images": 8144,
+    "expected_images": 8144,
+    "filtered": 7488,
+    "expected_filtered": 7488,
+    "filtered_missing": [],
+    "masks_missing": [],
+    "masks_missing_count": 0,
+    "masks_empty": [],
+    "masks_empty_count": 0
+  },
+  "stanford_test": {
+    "images": 8041,
+    "expected_images": 8041,
+    "filtered": 7426,
+    "expected_filtered": 7426,
+    "filtered_missing": [],
+    "masks_missing": [],
+    "masks_missing_count": 0,
+    "masks_empty": [],
+    "masks_empty_count": 0
+  },
+  "places": {
+    "train/alley": {
+      "list_present": true,
+      "listed": 1395,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/alley": {
+      "list_present": true,
+      "listed": 33,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/street": {
+      "list_present": true,
+      "listed": 120,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/street": {
+      "list_present": true,
+      "listed": 4,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/downtown": {
+      "list_present": true,
+      "listed": 643,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/downtown": {
+      "list_present": true,
+      "listed": 9,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/crosswalk": {
+      "list_present": true,
+      "listed": 151,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/crosswalk": {
+      "list_present": true,
+      "listed": 3,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/gas_station": {
+      "list_present": true,
+      "listed": 463,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/gas_station": {
+      "list_present": true,
+      "listed": 12,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/garage-outdoor": {
+      "list_present": true,
+      "listed": 2482,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/garage-outdoor": {
+      "list_present": true,
+      "listed": 51,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/driveway": {
+      "list_present": true,
+      "listed": 1372,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/driveway": {
+      "list_present": true,
+      "listed": 32,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/desert_road": {
+      "list_present": true,
+      "listed": 1976,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/desert_road": {
+      "list_present": true,
+      "listed": 44,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/field_road": {
+      "list_present": true,
+      "listed": 2259,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/field_road": {
+      "list_present": true,
+      "listed": 41,
+      "missing": [],
+      "missing_count": 0
+    },
+    "train/forest_road": {
+      "list_present": true,
+      "listed": 2503,
+      "missing": [],
+      "missing_count": 0
+    },
+    "val/forest_road": {
+      "list_present": true,
+      "listed": 49,
+      "missing": [],
+      "missing_count": 0
+    }
+  },
+  "lvis_pools": {
+    "urban": 5049,
+    "country": 5028
+  },
+  "segmenter": "maskformer-swin-large",
+  "fallback_masks": [
+    {
+      "split": "train",
+      "fname": "01052.jpg",
+      "bbox": [
+        150,
+        33,
+        1729,
+        1008
+      ],
+      "status": "fallback",
+      "method": "grabcut"
+    },
+    {
+      "split": "train",
+      "fname": "01243.jpg",
+      "bbox": [
+        41,
+        75,
+        464,
+        266
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 7,
+      "iou": 0.5496,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "01386.jpg",
+      "bbox": [
+        73,
+        211,
+        1534,
+        988
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.7376,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "01422.jpg",
+      "bbox": [
+        58,
+        44,
+        250,
+        180
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.7438,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "01470.jpg",
+      "bbox": [
+        108,
+        591,
+        1127,
+        1107
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.725,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "01774.jpg",
+      "bbox": [
+        27,
+        124,
+        732,
+        521
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.4082,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "02040.jpg",
+      "bbox": [
+        24,
+        59,
+        294,
+        221
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.7013,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "05762.jpg",
+      "bbox": [
+        13,
+        116,
+        621,
+        476
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.4609,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "05827.jpg",
+      "bbox": [
+        182,
+        153,
+        593,
+        357
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.7053,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "06742.jpg",
+      "bbox": [
+        6,
+        15,
+        315,
+        142
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 7,
+      "iou": 0.4993,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "train",
+      "fname": "06936.jpg",
+      "bbox": [
+        19,
+        61,
+        222,
+        139
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.6838,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "test",
+      "fname": "00046.jpg",
+      "bbox": [
+        90,
+        177,
+        659,
+        425
+      ],
+      "status": "fallback",
+      "method": "grabcut"
+    },
+    {
+      "split": "test",
+      "fname": "01214.jpg",
+      "bbox": [
+        64,
+        172,
+        1561,
+        1003
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.6255,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "test",
+      "fname": "02534.jpg",
+      "bbox": [
+        87,
+        78,
+        1022,
+        725
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.5212,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "test",
+      "fname": "03397.jpg",
+      "bbox": [
+        15,
+        34,
+        228,
+        172
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.7734,
+      "object_mask_threshold": 0.5
+    },
+    {
+      "split": "test",
+      "fname": "07102.jpg",
+      "bbox": [
+        26,
+        10,
+        276,
+        169
+      ],
+      "status": "fallback",
+      "method": "maskformer",
+      "category_id": 2,
+      "iou": 0.7486,
+      "object_mask_threshold": 0.5
+    }
+  ],
+  "failures": [],
+  "passes": true
+}

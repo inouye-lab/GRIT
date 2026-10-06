@@ -1,0 +1,850 @@
+{
+  "reason": "The recorded matrix searches also crossed representation consistency and, for ERM, V-REx, IRMv1 and Fishr, a two-layer control. The final paper reports neither, so their entries are removed. Kept candidates, selections, final seeds and metrics are unchanged. Summaries keep the recorded plan_digest (recorded_plan_digest below), the digest of the run's original plan before anonymization and trimming.",
+  "schema_version": "grit.anonymous-results-trimming/v1",
+  "trees": {
+    "cmnist/cmnist-erm-interventions-representation-v1-e03": {
+      "anonymized_untrimmed_plan_digest": "sha256:ffb6a7694ac50656de04a4319a925513053b3c98dd9d58e9726552ec2cbdf095",
+      "candidates": {
+        "kept": 144,
+        "recorded": 224
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "131ea1cd42139a752cf50e22c37c42b7c183cf95c854acf4653d5b1c5c140ae8",
+          "trimmed_sha256": "ca76dc3c66c7a3b23f5ba64f5b473c879b61fc4f070e63bb131ed3a1437f14f2"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "3df77c3885843b9f30e2899d5b7a8d72f53e6ae69ccd2aeacc06b0f9fdfe13b4",
+          "trimmed_sha256": "857aa119dcecf6b87c78eb92f967ffc09b80190f8a3c17510d8fa5d962a67d33"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "ae544dcf58059a7d9a7173563c3e1531150e8e86abf20aa71592767392157c14",
+          "trimmed_sha256": "12d8f38809d116516deb26ca8ba494632e8a027fbd56a6ae6788f2b0b58541b6"
+        },
+        "summaries/cmnist-summary.json": {
+          "recorded_sha256": "edaa5527fdf237a3807e3020228d754e4fe53c475da6348745c66c83f5592d70",
+          "trimmed_sha256": "e4393c95fae4bedc247de17f0813c361c5c00d20b5555250c82e1a9cad54a447"
+        }
+      },
+      "deleted_files": {
+        "selection/erm_representation_consistency/confirmation-union.json": "b8e00adb2179d704f818baffeb851d87412f7c32ffc373021e3abeee8dea3466",
+        "selection/erm_representation_consistency/primary-tuning-finalists.json": "383f009da001eae85e96e7e555d32c7c29642bce8ef1429a03302374bee7c12a",
+        "selection/erm_representation_consistency/primary_robust-winner.json": "8f4e1a6376831575f37f40f5b7322f0b13bf3605a90694812b8875b97339c175",
+        "selection/erm_representation_consistency/secondary-tuning-finalists.json": "fd35ead9f1b6e540211be085a23fafed883199a3eb7beb5ba9ecd807314ce8ed",
+        "selection/erm_representation_consistency/secondary_source-winner.json": "79a904b1229af58f4cc4d9e04cc5c424367c68092ec6a175e961bdea437a69b7",
+        "selection/erm_two_layer/confirmation-union.json": "44074eb8d625c54b4472383a0c6cc345afc5dbfcd83a8dba205b6063766ba18f",
+        "selection/erm_two_layer/primary-tuning-finalists.json": "4a982404311a534cb87a0188269d7022a973e9742c3078f66c7538547262cd1c",
+        "selection/erm_two_layer/primary_robust-winner.json": "d4b1e8fd9c3dbae4e25799070a5b4892ca4d32ac0b37dc38122efdbbc6aed001",
+        "selection/erm_two_layer/secondary-tuning-finalists.json": "978b8d79014381def3eed375d81c1ef7c456abb1c44b6ede5fa5a898b6157468",
+        "selection/erm_two_layer/secondary_source-winner.json": "695babf422b503d39cdcecc7a5d8b8c0ba2a147d0a2e2fd34219420169c1886f"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 36,
+          "confirmation_minimum": 18,
+          "final": 60,
+          "tuning": 432
+        },
+        "recorded": {
+          "confirmation_maximum": 60,
+          "confirmation_minimum": 30,
+          "final": 100,
+          "tuning": 672
+        }
+      },
+      "intervention_comparisons_removed": 8,
+      "recorded_plan_digest": "sha256:0a0ef7606b1475537c9eb0bda98452273851c6eb45c1038d27ccc17d5096952d",
+      "removed_methods": [
+        "erm_representation_consistency",
+        "erm_two_layer"
+      ],
+      "unchanged_file_count": 21
+    },
+    "cmnist/cmnist-fishr-interventions-representation-v1-e03": {
+      "anonymized_untrimmed_plan_digest": "sha256:42b6cdb2dc19d7bd46ea5806d31f1eb831a75e53a1579b982e842ad92f3da4b8",
+      "candidates": {
+        "kept": 576,
+        "recorded": 896
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "d816a6803f931f2405e7919b20358086fe7763589d7ab930cbd6dcbb0a1c76d8",
+          "trimmed_sha256": "dc686466107d5d0551166be92f818bd592da37ca96f7306b9a60faeea1c578c3"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "a16863b3134ea277bfe79926b68b65a35994e13ffe59cfe3e93902654dc20135",
+          "trimmed_sha256": "8a63ca666addf2342e94a8d33bec276b73c7c3ce1c567210f386a644e73b550a"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "f8ae0d9efc30b0108e2c1b5039ea024fbd6264be11778ef7e88146edb12b1f50",
+          "trimmed_sha256": "ab33b3601055fea091bf54de0b6304b500aaababf9da06ffdfc49c9155d60f83"
+        },
+        "summaries/cmnist-summary.json": {
+          "recorded_sha256": "99d58960b653dd8e0fff4559d3fd3c2c362d605fa2759dcccf76e130e6ebea15",
+          "trimmed_sha256": "8c656774eb6b070b892cbe2a2f3cb339209492551bd9c58bc175e13fe2d15390"
+        }
+      },
+      "deleted_files": {
+        "selection/fishr_representation_consistency/confirmation-union.json": "eede5f285dbd5b5ccf7c6c462050515d00f517258fb2a8ab69f9487f7a0baeb5",
+        "selection/fishr_representation_consistency/primary-tuning-finalists.json": "fad76955ae581cc872dbf44c8cfe31ddad4d7bb87cd0060c1170f6157ceecaf7",
+        "selection/fishr_representation_consistency/primary_robust-winner.json": "bffc173245e9ff24f23b6823fae793b788f29c40a680546fa8fe664d420f9388",
+        "selection/fishr_representation_consistency/secondary-tuning-finalists.json": "cb046a855a77c62aca7a76ca9a39e4dcc545169ea4b87cb756fed7905b77e31f",
+        "selection/fishr_representation_consistency/secondary_source-winner.json": "c02f795f7b7bc972566b0bd83234290b1495fa1a532476003e27ffbb53df3a06",
+        "selection/fishr_two_layer/confirmation-union.json": "dff531d0b6c64c1bc84776b5eba59eba4431984e091d648fb00350bd0735537c",
+        "selection/fishr_two_layer/primary-tuning-finalists.json": "3e540aed8d24e7ca68b50e9dc9bb6cf3d56073e015d2d932999c035b350c3614",
+        "selection/fishr_two_layer/primary_robust-winner.json": "77724d4eea9fe532d6ad50e21cd7dd05013d58b859bf6c58e09707c3e4525eab",
+        "selection/fishr_two_layer/secondary-tuning-finalists.json": "de0694a8fe32fe43b9cef836cfd242c09fb0086ba8cce058a21ea754c1413604",
+        "selection/fishr_two_layer/secondary_source-winner.json": "ba57bee2b102ddbb5193ccc684922314adacea8bc15c4552fe0e572b8baa9b7c"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 36,
+          "confirmation_minimum": 18,
+          "final": 60,
+          "tuning": 1728
+        },
+        "recorded": {
+          "confirmation_maximum": 60,
+          "confirmation_minimum": 30,
+          "final": 100,
+          "tuning": 2688
+        }
+      },
+      "intervention_comparisons_removed": 8,
+      "recorded_plan_digest": "sha256:9207f3aec891b8b6b1ecfec8dd0580a6ca549b153349d6a41470905a45449dae",
+      "removed_methods": [
+        "fishr_representation_consistency",
+        "fishr_two_layer"
+      ],
+      "unchanged_file_count": 19
+    },
+    "cmnist/cmnist-groupdro-label-source-env-interventions-representation-v1-e03": {
+      "anonymized_untrimmed_plan_digest": "sha256:1a17871b9d7542ee8fc22f78eefb68885070b838812094ab5bb86cda105f9585",
+      "candidates": {
+        "kept": 432,
+        "recorded": 624
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "f4e440233e9ad814d2d3f29a22247eccb176eb3cf012b0fbde35b99dcd5f04e2",
+          "trimmed_sha256": "3f8255f6179d5432c6e0da2e7b8d8cfd85fee9182a07f103babbb78dc87c81e8"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "8c94d7fcb973a85e6b583b8e7249691b6de767f9d23499641d5598813aae8167",
+          "trimmed_sha256": "cb9180f03a4e37a91785403b4a62b62fc18b8b4186c6be5c4532dd6282ad97b5"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "de3ce4f6096719baefdc0ec642790621f9816e6b31052c066ac9f51a838c1df6",
+          "trimmed_sha256": "9b20c98ef27c7f8ef594f86cc467c10463316f12679bbc06526b93264768cde1"
+        },
+        "summaries/cmnist-summary.json": {
+          "recorded_sha256": "bd1c46c64520b1d262716fc46b12af900543a35fef287a4071735794c12b5ee1",
+          "trimmed_sha256": "878a14ddc7ae3be2745555bc9f204e841bb3eb1213a5936737f73a23bb0396f3"
+        }
+      },
+      "deleted_files": {
+        "selection/groupdro_representation_consistency/confirmation-union.json": "979bcac27a8baf4f53969933e205277f10e05cb7bffc98945fbf10ed525dec88",
+        "selection/groupdro_representation_consistency/primary-tuning-finalists.json": "076e5d3f184f7211aed8671954b3f71e77b3955ab1b0ace5d1a015997a07e14a",
+        "selection/groupdro_representation_consistency/primary_robust-winner.json": "ef9f61970ba3bacb831bc0bd88c513b4e9cf15d37ab4e967c5ec308fb3c6a1aa",
+        "selection/groupdro_representation_consistency/secondary-tuning-finalists.json": "9331035e0aa935bca81d167ef35448cbcdb4b931518cffaf70650f241fc9351b",
+        "selection/groupdro_representation_consistency/secondary_source-winner.json": "e4d7ff7e76bbed5d5899534e01cdcf88bbe4248edb349bac92fab0f40ea61cfe"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 36,
+          "confirmation_minimum": 18,
+          "final": 60,
+          "tuning": 1296
+        },
+        "recorded": {
+          "confirmation_maximum": 48,
+          "confirmation_minimum": 24,
+          "final": 80,
+          "tuning": 1872
+        }
+      },
+      "intervention_comparisons_removed": 6,
+      "recorded_plan_digest": "sha256:7ca79b3e4a99b31ec5129ae45508c9c55151b59b6dbabed605ef8d05d007a4fa",
+      "removed_methods": [
+        "groupdro_representation_consistency"
+      ],
+      "unchanged_file_count": 19
+    },
+    "cmnist/cmnist-irm-interventions-representation-v1-e03": {
+      "anonymized_untrimmed_plan_digest": "sha256:ab7da99398390e5a7bf56832c780a191e6fb27ffe9fe45fb93f3722e79043e93",
+      "candidates": {
+        "kept": 576,
+        "recorded": 896
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "8faa4ca81b558f7161e41a321fed600c6c7cb9836c3734b6fe9b488afadeb390",
+          "trimmed_sha256": "9011318e4257d0230d5a58a81a3cf31f9554d60f3f444682699ae717dbd71b24"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "0568a726adf862bd959735b1402faacaf22c42604eaf81eeb6ed291c092372d4",
+          "trimmed_sha256": "91d4b0adfc979322ee8a3e5baca6185f673b6322ff0fe3b1aaa8a93c25775c7f"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "f22c8d63a3918b6ee7da770192ab0c0a1307c81af671e6a6f8bcd001056d38fd",
+          "trimmed_sha256": "b57a86c2248c1d75e741a797008c508bbe3fa3e82b3656f82c62ea2712144b48"
+        },
+        "summaries/cmnist-summary.json": {
+          "recorded_sha256": "e66e4038b4a2dbf01367f748506e83739062cda54a335f9624de0d7c5a929825",
+          "trimmed_sha256": "3f208305493a49b6fef47a5a8ad66d9c7c258b09fbc5d991f88caba079eb112d"
+        }
+      },
+      "deleted_files": {
+        "selection/irm_representation_consistency/confirmation-union.json": "7769cde449a0af758eb8f01989d7519f383cb36be136ccf4703e27fbf24e5c4d",
+        "selection/irm_representation_consistency/primary-tuning-finalists.json": "7ca0f2dc7901e7a71e538aeec56f0400d0932f75a0220aca8584f5251a95ce67",
+        "selection/irm_representation_consistency/primary_robust-winner.json": "692faf881182252c5b3c407cb49275f59b712711a4d31748fce9db928a030a4d",
+        "selection/irm_representation_consistency/secondary-tuning-finalists.json": "9a4d758f1a05400fe4ba0ec31611bd386f932d77db92629fcb0c1a76dab2d3a7",
+        "selection/irm_representation_consistency/secondary_source-winner.json": "9b8140445d4c304a525cefaec6695b1845a1ad5c71eab80b71164bf9e4905a82",
+        "selection/irm_two_layer/confirmation-union.json": "40297a8c3e36148cf7e4f8d72b65c185f3eb55862b6498ea317b114f50817c54",
+        "selection/irm_two_layer/primary-tuning-finalists.json": "4a146aa67e220dfd423f782c4f5a95b3cd5bd8525d7d5883ccda89407ea77da0",
+        "selection/irm_two_layer/primary_robust-winner.json": "2e4e5829fbfd642f80bf4ceef620747143f9197f2397ad3089ba7272a20fb719",
+        "selection/irm_two_layer/secondary-tuning-finalists.json": "875ceb0dbf6821399a000a87868cf52b51511399246d92e5be0b3c26fb34df77",
+        "selection/irm_two_layer/secondary_source-winner.json": "c0cd5b673099bd0b91496bac1ed81629e069fc2f9bc3600d48e1619686714688"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 36,
+          "confirmation_minimum": 18,
+          "final": 60,
+          "tuning": 1728
+        },
+        "recorded": {
+          "confirmation_maximum": 60,
+          "confirmation_minimum": 30,
+          "final": 100,
+          "tuning": 2688
+        }
+      },
+      "intervention_comparisons_removed": 8,
+      "recorded_plan_digest": "sha256:ddbeddc29bfd5f5c822ff8b4054212ca35d026ad2f9d6590b9d9b4fedd22da43",
+      "removed_methods": [
+        "irm_representation_consistency",
+        "irm_two_layer"
+      ],
+      "unchanged_file_count": 19
+    },
+    "cmnist/cmnist-lisa-source-env-interventions-representation-v1-e03": {
+      "anonymized_untrimmed_plan_digest": "sha256:2609106e6caa5b996c2aed6c0b4c43dd39e4274685eff8802e961ce26483ade4",
+      "candidates": {
+        "kept": 1008,
+        "recorded": 1456
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "77c181120a8070bd00f8106b8f548d6f23f648069e406f4dabbe7a0962f02085",
+          "trimmed_sha256": "7e602b1610f4606656123e7f20cf1589f28b9923dab184ebbe023901feff1e76"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "5e9f8af7286759a91b403f765d2e237c28af237f115d01e43e9c990461350106",
+          "trimmed_sha256": "6bbb2be51364719aa22bf0602a56a85cbacfe4a01c778861c475c1dd6b26a19a"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "469e00a6eb4e94fe8b83678dcf62f70dfdb45681ba9155153f3f60e2ca5e36d7",
+          "trimmed_sha256": "e73b63e689717bda7f226dea048ce1b795751003a6139978a6ee1481db77d2af"
+        },
+        "summaries/cmnist-summary.json": {
+          "recorded_sha256": "2b14ae0b725544e71597fde995cdf387e0a775c2760cc8f3aeb85e25c8db4ffa",
+          "trimmed_sha256": "165436e9c1fd5f42510447c580d1b2397d9814ff0dde8edf3303119935a10e4c"
+        }
+      },
+      "deleted_files": {
+        "selection/lisa_representation_consistency/confirmation-union.json": "e4ee22185ce1b2118f8667e77b71443e99cf1e41e353a1a0fe4a5f00ced2d484",
+        "selection/lisa_representation_consistency/primary-tuning-finalists.json": "f39ecf266f2e6c7cd8c1a4583551daa949aa56a4b6ceaa30e475ef38efca59f6",
+        "selection/lisa_representation_consistency/primary_robust-winner.json": "c72bd47e7d30b28455a303d6217c35844fb704dd0d180b9a3a62d5f9969c4766",
+        "selection/lisa_representation_consistency/secondary-tuning-finalists.json": "affc653e39c2777ff57b1feead00bf3c52945111c4da7b89893f4a6eea7f6593",
+        "selection/lisa_representation_consistency/secondary_source-winner.json": "8cb771714c16e6d1c44f759e62ca3e35ec2ec3eadcb4af3fda41364029b5f8b7"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 36,
+          "confirmation_minimum": 18,
+          "final": 60,
+          "tuning": 3024
+        },
+        "recorded": {
+          "confirmation_maximum": 48,
+          "confirmation_minimum": 24,
+          "final": 80,
+          "tuning": 4368
+        }
+      },
+      "intervention_comparisons_removed": 6,
+      "recorded_plan_digest": "sha256:0b324b3c60a5f6f341d0700aefc19c168f570708eda61adbf50960e271dc7405",
+      "removed_methods": [
+        "lisa_representation_consistency"
+      ],
+      "unchanged_file_count": 19
+    },
+    "cmnist/cmnist-rdm-interventions-representation-v1-e03": {
+      "anonymized_untrimmed_plan_digest": "sha256:748003c6f9ec7811fd4bba428e6ff07d4c09a2b606e98a8e4469226f83269a6a",
+      "candidates": {
+        "kept": 576,
+        "recorded": 832
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "ba80594e1160d1665a829d8063680b66f1a9f3dcdb3c4c536462410e2f1ccff1",
+          "trimmed_sha256": "d703f54fc3594bd9e3dcb3caaf4ccf2a18e1c522bb6b926571f6f5db936451d1"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "d6a71d53428b00eac93a240aa6ca46e62f890095bc62d66eabd076286299fc6c",
+          "trimmed_sha256": "7853ec448501f041ee16abf876f8661a2a77778412569d42c1d306e267a811c6"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "6fd44368f909709f0c78a6c16666ebea1bbb1813127399e3eb370154429d638e",
+          "trimmed_sha256": "0c8ac11bfb3b25f1c6d8d10dee52c971e3e70b61ceb351f5bd66452b9dde2677"
+        },
+        "summaries/cmnist-summary.json": {
+          "recorded_sha256": "92c0257c09a67057013a066b2286b6aa6af95c73e0d1a93784e4af179612f762",
+          "trimmed_sha256": "ec5cb30cb5fd15c14f08d2da59a070b5c59ef9e096123d75e086e5fd0ebb2506"
+        }
+      },
+      "deleted_files": {
+        "selection/rdm_representation_consistency/confirmation-union.json": "ab776af94622042110b7bec6d97e625636185f2b29ea52a5f5654fd24808fde3",
+        "selection/rdm_representation_consistency/primary-tuning-finalists.json": "d5e34d1353adf2367231d8f24c55fd32f6f7059101d50d6bebdca02df9846b38",
+        "selection/rdm_representation_consistency/primary_robust-winner.json": "9d78f37f9176c65e8ee8585064e71cb3a98ac7d9781405b77bf95f5fdbfacad5",
+        "selection/rdm_representation_consistency/secondary-tuning-finalists.json": "c5d98dd1445566bac2bfe8533bf38bb3e78f3041d8c94d911a5d3bb78cbdcc43",
+        "selection/rdm_representation_consistency/secondary_source-winner.json": "c772adb3cab1d33427751d2cad4a56ca955e08f95586b58f3ae53bca646d4959"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 36,
+          "confirmation_minimum": 18,
+          "final": 60,
+          "tuning": 1728
+        },
+        "recorded": {
+          "confirmation_maximum": 48,
+          "confirmation_minimum": 24,
+          "final": 80,
+          "tuning": 2496
+        }
+      },
+      "intervention_comparisons_removed": 6,
+      "recorded_plan_digest": "sha256:cb75b10daf75de246ed0bbfb0339cab45758f5f43f2995c661b22e99c0040558",
+      "removed_methods": [
+        "rdm_representation_consistency"
+      ],
+      "unchanged_file_count": 19
+    },
+    "cmnist/cmnist-rex-interventions-representation-v1-e03": {
+      "anonymized_untrimmed_plan_digest": "sha256:14fa238227ce47ecb13b3776d700893b9611abdff96cf96985578928149e8a10",
+      "candidates": {
+        "kept": 576,
+        "recorded": 896
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "a993591ee383ce595262d9cb1bc6fbdcec5b95fddd143f59866176ff0572f0f0",
+          "trimmed_sha256": "2b3df8d75cfac7c1a605da8cceb285e77c563607c43e3a2f9a87ef8c5719fe07"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "dc597ae123433b7337120851a411958b967236ee584bf258b1b25967048c3296",
+          "trimmed_sha256": "dd316ec2992978ef3a19251d7eb430c450e14b8c9e7e15b73a9634c82482eeeb"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "67617c8dbb41188091c3276b96036750078290bc69d3c9c388e21fb9c8e4684a",
+          "trimmed_sha256": "57ba7711c0bf5fd4a0d9d820823af9face4d32a7f5a3a1ced7c5ca3024a85280"
+        },
+        "summaries/cmnist-summary.json": {
+          "recorded_sha256": "4afe055048fa7a937f4b2846f24dba9ec236e0bb2eec1957a37a0133c5886371",
+          "trimmed_sha256": "7decf193bc9dbe7b21d1c63f9b4aedd0f9e3313af149bb56d545ee3c9da80720"
+        }
+      },
+      "deleted_files": {
+        "selection/rex_representation_consistency/confirmation-union.json": "d4e58571a997ae0900af3c5514ae0c3930113f2830a6649e680252de8032c78c",
+        "selection/rex_representation_consistency/primary-tuning-finalists.json": "fa5cabe8c14b22590b9a269033234faf2c7b323c0e122a1bf13ed67304a1b7f0",
+        "selection/rex_representation_consistency/primary_robust-winner.json": "7dddd15958557da1db6ddb6aa7e2051b16edc71e157e8d2989178166c4d5040f",
+        "selection/rex_representation_consistency/secondary-tuning-finalists.json": "666a2ce3ef8a77a50d72c6e30d428b2c79a1efb9a4c1563ef9611d8ec9beb457",
+        "selection/rex_representation_consistency/secondary_source-winner.json": "d5445d1abef2728ce1bb1df1d38672afb704f82a2985e161da8efaa6a30b1fd4",
+        "selection/rex_two_layer/confirmation-union.json": "13e0bb7394dcc771d1a0667cab62d8ceab2bc9a916815e623f858600218132e3",
+        "selection/rex_two_layer/primary-tuning-finalists.json": "04ce2312bc4b34ded053b457fc1e9829c4cba28ce34558edd03f421fe2c3df9b",
+        "selection/rex_two_layer/primary_robust-winner.json": "508f40caf6b3234631291ab1b98c9e5f2d8ec5a7eef9ca67f05f2d52254d9c60",
+        "selection/rex_two_layer/secondary-tuning-finalists.json": "989b1aa7a897423e00b8b693833be78efff4b95af6ee1f3598a3b385fb882954",
+        "selection/rex_two_layer/secondary_source-winner.json": "9b0de9bc30c7c648eefec984af4a70f970cd0854cf40d1351b43218177e93076"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 36,
+          "confirmation_minimum": 18,
+          "final": 60,
+          "tuning": 1728
+        },
+        "recorded": {
+          "confirmation_maximum": 60,
+          "confirmation_minimum": 30,
+          "final": 100,
+          "tuning": 2688
+        }
+      },
+      "intervention_comparisons_removed": 8,
+      "recorded_plan_digest": "sha256:e8cbadac35ddeeb05bfc5c64a0f6be38e413bc85182ee9da1d3ae71690062c41",
+      "removed_methods": [
+        "rex_representation_consistency",
+        "rex_two_layer"
+      ],
+      "unchanged_file_count": 19
+    },
+    "cmnist/cmnist-sd-interventions-representation-v1-e03": {
+      "anonymized_untrimmed_plan_digest": "sha256:08bb3f7d2dad4412466daecc6084d92b1fe100a1eb69169ca04bcc8449d5c2bf",
+      "candidates": {
+        "kept": 720,
+        "recorded": 1040
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "3fadf66440589d20a0d3b7c45ab8706a698c98b88b4823242eacf819ca8b1b37",
+          "trimmed_sha256": "058b4316d5984dc1eaf92fa6e9d1c1c7ea2310a1b2e61ec1c379b7aae932864b"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "47d8a5b3e16969f58358765cd3d8805a44c1e6cd4b1bffc8fe3ba024656f1068",
+          "trimmed_sha256": "cdccf5645bedc937e865ae364e032dc372d8813c9aecfc6769d9a205b268d6e9"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "2ac3dda5691a0e3a9c1bada9db7da3d5ac9c71794cc5d192f52497089abf9b69",
+          "trimmed_sha256": "52b6d3300639fe2227a2ff5d54ee5b86d0642aba6a986f0dd2b9abe50e78ea8f"
+        },
+        "summaries/cmnist-summary.json": {
+          "recorded_sha256": "ceef7617bcf621d35c1de918c075f2ea9d2ec43fc7ec6ad06b0378225216bc45",
+          "trimmed_sha256": "c422fa98c1ac2e6c6bcdda155293e49f7bdc2e84b63eb033411369bccc917374"
+        }
+      },
+      "deleted_files": {
+        "selection/sd_representation_consistency/confirmation-union.json": "dc3fc246dcdc0f1b20a6e967b838501b48d26185ff867712d0e88f74be0ec2cd",
+        "selection/sd_representation_consistency/primary-tuning-finalists.json": "cdb2083765c976fdbce0085cdc50f58b3a8acfb8ae990a16fb4c8bc9ef8ef12f",
+        "selection/sd_representation_consistency/primary_robust-winner.json": "aea0d9caa2866646037ee00d9600593b22a1df52cef0c90ce4839d5ea2ffc58a",
+        "selection/sd_representation_consistency/secondary-tuning-finalists.json": "d827a2156801cb1547e8fa6e78d61a8fa2d13f5298327a51510c89249e273b64",
+        "selection/sd_representation_consistency/secondary_source-winner.json": "4adc680297b1a465f63ccfb0d7386c1ae9aa6e65234ab44e5ab9b2896739bef7"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 36,
+          "confirmation_minimum": 18,
+          "final": 60,
+          "tuning": 2160
+        },
+        "recorded": {
+          "confirmation_maximum": 48,
+          "confirmation_minimum": 24,
+          "final": 80,
+          "tuning": 3120
+        }
+      },
+      "intervention_comparisons_removed": 6,
+      "recorded_plan_digest": "sha256:758e2028c050646b7d5137d1f256cf13769cb28eca3eee347a88bf5a06a0c2ca",
+      "removed_methods": [
+        "sd_representation_consistency"
+      ],
+      "unchanged_file_count": 19
+    },
+    "waterbirds/waterbirds-erm-interventions-representation-v1": {
+      "anonymized_untrimmed_plan_digest": "sha256:4b421f175ea976117f658d989e5ef56efe5e24f7eab15c9568e4b54330e82578",
+      "candidates": {
+        "kept": 144,
+        "recorded": 224
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "d52a41b6a7756e2e5fb602be056bda2793d9817edbcf353f275acbb858f24191",
+          "trimmed_sha256": "a3400af2386d426af8494716e1652c39b7723a96fdfcf1bbd207889e34ba3f55"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "a0e9723261963699a781223bc380b8a9ab4122796db0934a19e890cb507ea927",
+          "trimmed_sha256": "e3c8a0e83b9440cf735367a2e392ef534e6700216be50e3d421ee922c961f6e5"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "2726e563906d3c629d45c71400616a523b11c134195dd257b9b9584fb80f7802",
+          "trimmed_sha256": "4acffe134b525f50d67691182926ee331cd83ab02c36ce7a2beb3679e74d7484"
+        },
+        "summaries/waterbirds-summary.json": {
+          "recorded_sha256": "5ac73deb998a98736e7d7d51444d61c892c852c1ae73d8a3254ebfb9eec46442",
+          "trimmed_sha256": "473647ff1d160c58f14f4c9a27a8b1eb7073b7a3cb2794f31e56de5630a038e6"
+        }
+      },
+      "deleted_files": {
+        "selection/erm_representation_consistency/tuning-finalists.json": "2330df61a42268dad8e363d04b5460c6f3a993a49d2b0bc039885ee0a155cc56",
+        "selection/erm_representation_consistency/winner.json": "183f844f0d2404a936507cebb9f05224f6f3ef97a5db504cdb397cfb0c850a09",
+        "selection/erm_two_layer/tuning-finalists.json": "67f0dc784167a3898a1039f4ab019b19475ea606ef5afda4f111a477dc50eafb",
+        "selection/erm_two_layer/winner.json": "7b1f93046b675b04161e47a2227cbc1dcb1a21042649196a3b626ea8646ede2e"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 18,
+          "confirmation_minimum": 18,
+          "final": 30,
+          "tuning": 432
+        },
+        "recorded": {
+          "confirmation_maximum": 30,
+          "confirmation_minimum": 30,
+          "final": 50,
+          "tuning": 672
+        }
+      },
+      "intervention_comparisons_removed": 12,
+      "recorded_plan_digest": "sha256:19c714782419f4ec4f17595cae2b7a21b50c9cbb2bdfb9dcef755885798de8b1",
+      "removed_methods": [
+        "erm_representation_consistency",
+        "erm_two_layer"
+      ],
+      "unchanged_file_count": 11
+    },
+    "waterbirds/waterbirds-fishr-interventions-representation-v1": {
+      "anonymized_untrimmed_plan_digest": "sha256:0f3542059f95fc7dedbdf366b52b4ec2b71701d9f06265525a99094414a2ea33",
+      "candidates": {
+        "kept": 576,
+        "recorded": 896
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "9f8d09a6826ec3d7752efd51a0c0786ea2aa238bfd7a34c8fa66f26fbc628dc9",
+          "trimmed_sha256": "f930960a5b8b0435c20fa46f74bb69734360eebd3cfdac7fd1ead1e81547244f"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "cdac1fca29b2b5b604e66a7341e44ada10225992b832e70aa72eb3b0235df205",
+          "trimmed_sha256": "c007c548b83f185199126ef3ac1e5876b017d9bbf0b3e320254d0c8a3cc4f194"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "8567904d43be1181fde9c2453cab4884af2a2cc4ad2a3d978d69b03add6a6e28",
+          "trimmed_sha256": "8ccfaf013cf3f9766e84500aab6eecc012d6274e2e588f676615e956e92709d8"
+        },
+        "summaries/waterbirds-summary.json": {
+          "recorded_sha256": "040fc3730085f4ae31d9317ebdf9e83066d42466af2df868ec9bd5e50f9fc189",
+          "trimmed_sha256": "8319ba8dc683e9af84faa73dcb8ff0ffc72fb39976cd122f634bbda6fad9c79b"
+        }
+      },
+      "deleted_files": {
+        "selection/fishr_representation_consistency/tuning-finalists.json": "ba8d2924e77fc05b5ebf9fe77595a5ef99e721d635a12d0b1bb081acb0ebc6bc",
+        "selection/fishr_representation_consistency/winner.json": "df57c6b2907853a949118fb4c09996b87654cf0ea2bcb2cff144e1654ff3bf8d",
+        "selection/fishr_two_layer/tuning-finalists.json": "db7b9ba641ecee091d246c2c6a4ba61fc56bbb7839f9740316554e826d650eef",
+        "selection/fishr_two_layer/winner.json": "7241d79ad8ff49c66ba37af0572acd562f3727db464d20f005a5fd7db3b52595"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 18,
+          "confirmation_minimum": 18,
+          "final": 30,
+          "tuning": 1728
+        },
+        "recorded": {
+          "confirmation_maximum": 30,
+          "confirmation_minimum": 30,
+          "final": 50,
+          "tuning": 2688
+        }
+      },
+      "intervention_comparisons_removed": 12,
+      "recorded_plan_digest": "sha256:2c877941094e6aa6a02e64b195b4745f30705acc448838e0c64a5614d08bd0ee",
+      "removed_methods": [
+        "fishr_representation_consistency",
+        "fishr_two_layer"
+      ],
+      "unchanged_file_count": 10
+    },
+    "waterbirds/waterbirds-groupdro-interventions-representation-v1": {
+      "anonymized_untrimmed_plan_digest": "sha256:f7f35f78eade8e9b99fba21bd5c23616d843bff42f314fdfcd02c266e811d36b",
+      "candidates": {
+        "kept": 432,
+        "recorded": 624
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "5075516dad814e9a407d5d76df526b34d838481c3aed3316319821789018ed88",
+          "trimmed_sha256": "2a11f795fd9be12255e7fd1dbec0072ecf007e2c10652e5ecb2ce197e4fc0df0"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "0d9a24eff04c6cdb249722d685e6557e51e882bab64330a62fe04531dbe923a3",
+          "trimmed_sha256": "24b00548c9bab81adf6833a8dcb8617b671e79c4cddb64862c36382cbc89f1a2"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "06722b196ac45709576dc0aced2ab49219bb12543bc938f1870dc828008b5231",
+          "trimmed_sha256": "a2f74a36ecbe3fa69f07a269b2cc9102c6f22af421f2826f2f64d0991862bfe8"
+        },
+        "summaries/waterbirds-summary.json": {
+          "recorded_sha256": "6ac4cd6d00a6ebd6d518264437cb5b3e77c5fc147fa50371b71e0248b56a2927",
+          "trimmed_sha256": "83cd36ca4a7f8486eb880c0e03892a6c4693fc1f8a214bbbc0a68864c16c35a1"
+        }
+      },
+      "deleted_files": {
+        "selection/groupdro_representation_consistency/tuning-finalists.json": "d01a12ffc582523b1b5c18147dbd4b605d86772e63c25852224ed320e6477629",
+        "selection/groupdro_representation_consistency/winner.json": "cb50e7f6572a21a1760406f1efc4a77b47b457e3674e3292afed8fda0288eb8f"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 18,
+          "confirmation_minimum": 18,
+          "final": 30,
+          "tuning": 1296
+        },
+        "recorded": {
+          "confirmation_maximum": 24,
+          "confirmation_minimum": 24,
+          "final": 40,
+          "tuning": 1872
+        }
+      },
+      "intervention_comparisons_removed": 9,
+      "recorded_plan_digest": "sha256:b5d80f12b3c69e6b71351b8489a7c02c1e3d28f484784bac6be5c3ce90a83f27",
+      "removed_methods": [
+        "groupdro_representation_consistency"
+      ],
+      "unchanged_file_count": 10
+    },
+    "waterbirds/waterbirds-irm-interventions-representation-v1": {
+      "anonymized_untrimmed_plan_digest": "sha256:ef19f9cfad9628e25fb782ae52be49bd0693c67eb0c030204a2f3a4863eca179",
+      "candidates": {
+        "kept": 576,
+        "recorded": 896
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "352fec1a891ea33a2af38615efe4bec0a061da1517b58ecd97c4957abfa598f7",
+          "trimmed_sha256": "6bbff2b295afc69d5f595a22569dfa1c19411b07d91f54e0f849bf33c7f82e40"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "a2988f00e9ab7080640cf7ab414971db5120da8708bf4abb7d507a7c67b1763a",
+          "trimmed_sha256": "de5e01af105f6090a8b01e31cc221ade7efc21df77d0f4a7f925dcff97193296"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "a24b670d141c0bb7db59b6a5ed7c3674cc1594ba92eace8d831992506d27f9a4",
+          "trimmed_sha256": "c3968c60b8e598e39655a254d6680dc8564f1a858712cf4dea635fc1cfcc4c70"
+        },
+        "summaries/waterbirds-summary.json": {
+          "recorded_sha256": "6cc8fb6af26b87d3dc5feca226923ec13b7b2124f8ed56b4f33e1d6bd1cacb20",
+          "trimmed_sha256": "260b33fbb2184e8abb425caafb8c88e4d343c367feb41536452b6e9a0bfbfa9d"
+        }
+      },
+      "deleted_files": {
+        "selection/irm_representation_consistency/tuning-finalists.json": "c610c392abdd31b5b6b0ec390d47d558f143c814bf0b54e47cb6371361bdcf99",
+        "selection/irm_representation_consistency/winner.json": "ca97a4e7faf2738a9c800c91c1074ece2d4c80b457094162d029e01bb6ee44f7",
+        "selection/irm_two_layer/tuning-finalists.json": "cf17456f4a079f1e166dd5a125d77ad5f11864948bed0a0b69c629170caebcbf",
+        "selection/irm_two_layer/winner.json": "06c2a384052ca2a12a3fd5a81b84a431f761c88f18f9a9c1b517247484528dfd"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 18,
+          "confirmation_minimum": 18,
+          "final": 30,
+          "tuning": 1728
+        },
+        "recorded": {
+          "confirmation_maximum": 30,
+          "confirmation_minimum": 30,
+          "final": 50,
+          "tuning": 2688
+        }
+      },
+      "intervention_comparisons_removed": 12,
+      "recorded_plan_digest": "sha256:3c1e982feef767762c5c11ed2e8209ae31ea356e3857adadc84eae17a24e4648",
+      "removed_methods": [
+        "irm_representation_consistency",
+        "irm_two_layer"
+      ],
+      "unchanged_file_count": 10
+    },
+    "waterbirds/waterbirds-lisa-interventions-representation-v1": {
+      "anonymized_untrimmed_plan_digest": "sha256:c70e52dae82026bd0b41a22cf1138b12b0999b8375fa414f099032c7a273a824",
+      "candidates": {
+        "kept": 1008,
+        "recorded": 1456
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "d3b782a631233fc6acec4ac724e6af6f8b4be3b85d90f188e276dd59c53689b7",
+          "trimmed_sha256": "c60e6e35be81a0ec897f366c7533c9f59a769c4ec4ef456b49cdbb4f9f5806a7"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "13fe54c60b244a4b74279b206d2907cb376bf1baca67dc0265604a02e89a5837",
+          "trimmed_sha256": "d2e54592275cfa23f485b79276e24b28b5d4fb54f997f622f9c3714345471334"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "7f2dc20f2f1a221a82be677bb1e47e239af3faf18608fdda4617ee22ae22d284",
+          "trimmed_sha256": "64193a007dbf8a5186481544455ccb47501554ee6654b1cb891b3bcdd561e53d"
+        },
+        "summaries/waterbirds-summary.json": {
+          "recorded_sha256": "fd8ae8310e6b53311c21736e66c38c8bba6ea422cb6b020b0b6a8855ef699575",
+          "trimmed_sha256": "d3a811c262a374ffe93f04e5feb4fe56eaca294e2dbeda5430efe28d92820acc"
+        }
+      },
+      "deleted_files": {
+        "selection/lisa_representation_consistency/tuning-finalists.json": "fc925b1d97659931120ba4740da6cea9ecafa8534cf9e61dd220efca262fbd7f",
+        "selection/lisa_representation_consistency/winner.json": "d18f4e52176ce70e972c9283a4e81839457f5eec20ae2b61d7f35398ad961060"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 18,
+          "confirmation_minimum": 18,
+          "final": 30,
+          "tuning": 3024
+        },
+        "recorded": {
+          "confirmation_maximum": 24,
+          "confirmation_minimum": 24,
+          "final": 40,
+          "tuning": 4368
+        }
+      },
+      "intervention_comparisons_removed": 9,
+      "recorded_plan_digest": "sha256:ca53b91312a002fbc037b4fd2d4044322739adff9dd7188ac5452e33a24eb750",
+      "removed_methods": [
+        "lisa_representation_consistency"
+      ],
+      "unchanged_file_count": 10
+    },
+    "waterbirds/waterbirds-rdm-interventions-representation-v1": {
+      "anonymized_untrimmed_plan_digest": "sha256:d01091f99b0aac916987d871106cdcbe132311b38410f01dde9ec5444f1e1b54",
+      "candidates": {
+        "kept": 576,
+        "recorded": 832
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "31e06003f1b90da908558872e6be3dc3bcf0230bd8c2c224170637631d9cfb06",
+          "trimmed_sha256": "dbee03a5bee2e33daac55e8b9cc862dfe97aae1759c78efbe5ed2812ecead823"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "22ca037c1b44fb9fdd45a755e7b351aab47629ae879b9fdc4380aa1f174228c1",
+          "trimmed_sha256": "6922ad87aee93e8dd84a72e7306936a8978331f7c0f9780a3ef2eb4ac8b3342c"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "e13c9949b9d66d56c26f0df11551330b24e8292ad1210bff5ce9610fa10d8c66",
+          "trimmed_sha256": "e1553a61a74a17ba54136edffdee8d01bade195e1ff0581d97d271e7f96b2ec4"
+        },
+        "summaries/waterbirds-summary.json": {
+          "recorded_sha256": "6ce8b04f92ae406fc67cb83493a4a03b9d5001cbdf59fbb86b750ba2f7aebe35",
+          "trimmed_sha256": "72a11e6be43f12fe34e2aa6d964b463d4d7f446484274a2e018e793ba366d71a"
+        }
+      },
+      "deleted_files": {
+        "selection/rdm_representation_consistency/tuning-finalists.json": "904361c97b73350ec1b6ca38fc677d9cac7409e4556b568b6e83a42cdcf9c714",
+        "selection/rdm_representation_consistency/winner.json": "d9d51449affde1487d3224f5404883133d3cd341074558beeba6d57f2e7213bd"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 18,
+          "confirmation_minimum": 18,
+          "final": 30,
+          "tuning": 1728
+        },
+        "recorded": {
+          "confirmation_maximum": 24,
+          "confirmation_minimum": 24,
+          "final": 40,
+          "tuning": 2496
+        }
+      },
+      "intervention_comparisons_removed": 9,
+      "recorded_plan_digest": "sha256:8cc22fd71ccf2563aa3129cfe27186f671c0d8d75b496f6f2f1bfb877c63e40a",
+      "removed_methods": [
+        "rdm_representation_consistency"
+      ],
+      "unchanged_file_count": 10
+    },
+    "waterbirds/waterbirds-rex-interventions-representation-v1": {
+      "anonymized_untrimmed_plan_digest": "sha256:30d165978bf5f3b38b09bc6ccfa5536293812b3c8de1d1672705540c81ed887d",
+      "candidates": {
+        "kept": 576,
+        "recorded": 896
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "9eadfbbe604d5894cae2ac82591517a6fd244118a2a9af4e6109a8a016bf0490",
+          "trimmed_sha256": "ccbcf878276c5964bfb00b7710f2a30cd4b9d00e18670ce535a4f3e3ab7dad5c"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "3ce866e8cacce3019ecc13fe501a4da0c20be76fe9ecb3a0d34a963795e851c9",
+          "trimmed_sha256": "eb5c87af574b005fc8b9e6872f34c5a9f550adb6b060e46446bf5732414de3f2"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "12f5a1b37e3e7512db721889b64a4caea83e9e5121c05705fb8ae5faa6f465b4",
+          "trimmed_sha256": "a00406861f3d97a1d886e6b7eed2da497e58dd2c37f964fa1b620a855904ba8e"
+        },
+        "summaries/waterbirds-summary.json": {
+          "recorded_sha256": "7707f3566e66b7f351755c166bbecfa428abf28f068417edff92cf866024bca0",
+          "trimmed_sha256": "740291f65ce406cfe31ee0c963e07f659a9836884e3bbbcf782d52960161dd3e"
+        }
+      },
+      "deleted_files": {
+        "selection/rex_representation_consistency/tuning-finalists.json": "9a4aab08c93705458a1d0578fbce262f182a94d407af6f0a4434236aba1a453c",
+        "selection/rex_representation_consistency/winner.json": "626b3f25e2820064ce64bfc8b2d3fbf2232ef807a9e4db873208052556e8033f",
+        "selection/rex_two_layer/tuning-finalists.json": "9cbc1c93f56382de1ac9678e66846a320e7ee30c57659a69576eee21b7be9be3",
+        "selection/rex_two_layer/winner.json": "ad5d06376feda62042391b89359415b7d371e04050bb8cdff35198c876c28c53"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 18,
+          "confirmation_minimum": 18,
+          "final": 30,
+          "tuning": 1728
+        },
+        "recorded": {
+          "confirmation_maximum": 30,
+          "confirmation_minimum": 30,
+          "final": 50,
+          "tuning": 2688
+        }
+      },
+      "intervention_comparisons_removed": 12,
+      "recorded_plan_digest": "sha256:5e90cc10dfc13ea2b4b03d934cfa2ad6db9b7f0e314b0038c810e89db8c64bc7",
+      "removed_methods": [
+        "rex_representation_consistency",
+        "rex_two_layer"
+      ],
+      "unchanged_file_count": 10
+    },
+    "waterbirds/waterbirds-sd-interventions-representation-v1": {
+      "anonymized_untrimmed_plan_digest": "sha256:e80a334fe167e33f28cbb314e405a853618fd1d00b5f76ab729848c72888926a",
+      "candidates": {
+        "kept": 720,
+        "recorded": 1040
+      },
+      "changed_files": {
+        "authored-config.yaml": {
+          "recorded_sha256": "bffb634830e345758bf55746107592a3fdb45098609e8d9f2bd2ebb9395f185c",
+          "trimmed_sha256": "0e516707ef74f2d971751f254ed2c5781031da20d01ebfc977a6b799c3369578"
+        },
+        "resolved-config.json": {
+          "recorded_sha256": "bdab42a5a51d63a7d03eeff11fac674107d48a674cd86ded5962b8491b7d3a31",
+          "trimmed_sha256": "9e85fb122279f918244884b5c42de4ace7635c04dca4cc10858b7c0ef93726ba"
+        },
+        "search-plan.json": {
+          "recorded_sha256": "0c3e078fb48bcef0e730cd10a71d7b35a8d044c597d2f58a1e87faaceb12f5b1",
+          "trimmed_sha256": "11d166d67b123fb2d8bf6636ea9540adc7803b1d3db9d8ff7f1e950080d13516"
+        },
+        "summaries/waterbirds-summary.json": {
+          "recorded_sha256": "ae2cdc30533426bd05b765f4b82c76c6045f0075d47a469e9b38eb9f99186dfd",
+          "trimmed_sha256": "7d4fc6b3fecbe4bb1df76c75edf4709cc3972136d7c2162ef002bac9ade22321"
+        }
+      },
+      "deleted_files": {
+        "selection/sd_representation_consistency/tuning-finalists.json": "1fadb0065d34badfc3c60caf77a9cd5319d29d9b94d27356fce7a3eca836c48b",
+        "selection/sd_representation_consistency/winner.json": "1334f8596ce9df84a6d73016303f517184ab446cfe64a4d4b66c91f68fe7251b"
+      },
+      "expected_run_counts": {
+        "kept": {
+          "confirmation_maximum": 18,
+          "confirmation_minimum": 18,
+          "final": 30,
+          "tuning": 2160
+        },
+        "recorded": {
+          "confirmation_maximum": 24,
+          "confirmation_minimum": 24,
+          "final": 40,
+          "tuning": 3120
+        }
+      },
+      "intervention_comparisons_removed": 9,
+      "recorded_plan_digest": "sha256:ecf5d65143725afdd2efa3cf4e0cb51a87a78deadce2670f256b5774e218177a",
+      "removed_methods": [
+        "sd_representation_consistency"
+      ],
+      "unchanged_file_count": 10
+    }
+  }
+}
