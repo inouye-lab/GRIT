@@ -1,7 +1,7 @@
 # GRIT: Out-of-Distribution Robustness from Finite and Noisy Invariant Pairs
 
-Code for the paper *GRIT: Out-of-Distribution Robustness from Finite and Noisy
-Invariant Pairs* (arXiv link forthcoming). GRIT estimates a linear subspace from
+Code for the paper [*GRIT: Out-of-Distribution Robustness from Finite and Noisy
+Invariant Pairs*](https://arxiv.org/pdf/2505.24843v3). GRIT estimates a linear subspace from
 invariant pair differences on fixed pretrained features and projects it out before
 predictor fitting, so the same constraint can accompany ERM or a compatible robustness
 objective.
